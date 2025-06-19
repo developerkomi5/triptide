@@ -8,6 +8,6 @@ final ThemeData tripTideTheme = ThemeData(
     bodyLarge: TextStyle(fontSize: 16, color: kTextColor),
     bodyMedium: TextStyle(fontSize: 14, color: kTextColor),
   ),
-  fontFamily: 'Roboto',
+
   useMaterial3: true,
 );
