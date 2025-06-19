@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408490960747",
+    "project_id": "triptide-ef65d",
+    "storage_bucket": "triptide-ef65d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408490960747:android:f550a87697f15b1ff00e2e",
+        "android_client_info": {
+          "package_name": "com.example.triptide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdX8zQtFBBk9m-XXu09PXwFKoDVsHHo4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
