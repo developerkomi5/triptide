@@ -55,7 +55,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   void _skip() {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => const HomeScreen()),
+      MaterialPageRoute(builder: (_) => const LoginScreen()),
     );
   }
 

@@ -12,7 +12,20 @@
           "package_name": "com.example.triptide"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "408490960747-ru1s4107i77eqs8jralln5tns2k21pap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.triptide",
+            "certificate_hash": "dc9ba652a1bb26498cbc3ea139b704057f8e05c5"
+          }
+        },
+        {
+          "client_id": "408490960747-pqb44o8f3u0g5ojc8lta4iumtukf2k6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDdX8zQtFBBk9m-XXu09PXwFKoDVsHHo4M"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408490960747-pqb44o8f3u0g5ojc8lta4iumtukf2k6a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "408490960747-f8ni6qt8sujvc8tu29u1nb3qfro1bfhv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.triptide"
+              }
+            }
+          ]
         }
       }
     }

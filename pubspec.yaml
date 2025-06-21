@@ -76,6 +76,7 @@ flutter:
     - assets/TripTide.png
     - assets/google.png
     - assets/animations/loading.json
+    - assets/animations/login.json
     - assets/animations/travel.json
     - assets/animations/trip.json
     - assets/animations/tripshare.json
