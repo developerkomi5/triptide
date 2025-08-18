@@ -1,1 +1,41 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"triptide-ef65d","appId":"1:408490960747:android:f550a87697f15b1ff00e2e","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"triptide-ef65d","configurations":{"android":"1:408490960747:android:f550a87697f15b1ff00e2e","ios":"1:408490960747:ios:92a54db6a3a7a899f00e2e","macos":"1:408490960747:ios:92a54db6a3a7a899f00e2e","web":"1:408490960747:web:8e3b8f10add7e430f00e2e","windows":"1:408490960747:web:8454ac0e1f4cafc3f00e2e"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "triptide-ef65d",
+          "appId": "1:408490960747:android:f550a87697f15b1ff00e2e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "triptide-ef65d",
+          "configurations": {
+            "android": "1:408490960747:android:f550a87697f15b1ff00e2e",
+            "ios": "1:408490960747:ios:92a54db6a3a7a899f00e2e",
+            "macos": "1:408490960747:ios:92a54db6a3a7a899f00e2e",
+            "web": "1:408490960747:web:8e3b8f10add7e430f00e2e",
+            "windows": "1:408490960747:web:8454ac0e1f4cafc3f00e2e"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

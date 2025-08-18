@@ -1,8 +1,10 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:triptide/screens/forgot_password_screen.dart';
+import 'package:triptide/screens/personalize/destination_picker_screen.dart';
 import '../screens/home_screen.dart';
 import '../utils/constants.dart';
 
@@ -24,7 +26,6 @@ class _LoginFormState extends State<LoginForm> {
   Future<void> _submit() async {
     if (!_formKey.currentState!.validate()) return;
     _formKey.currentState!.save();
-
     setState(() => loading = true);
 
     try {
@@ -32,10 +33,37 @@ class _LoginFormState extends State<LoginForm> {
         email: email,
         password: password,
       );
-      if (!mounted) return;
+      final user = FirebaseAuth.instance.currentUser;
+      final userDocRef = FirebaseFirestore.instance
+          .collection('users')
+          .doc(user!.uid);
+
+      final existingDoc = await userDocRef.get();
+
+      // merge login info + only added createdAt if doc does not exist
+      await userDocRef.set({
+        'uid': user.uid,
+        'email': user.email,
+        'name': user.displayName ?? '',
+        'lastLogin': FieldValue.serverTimestamp(),
+        if (!existingDoc.exists) 'createdAt': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+
+      final updatedDoc = await userDocRef.get();
+      final hasPreferences = updatedDoc.data()?['preferences'] != null;
+
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => const HomeScreen()),
+        MaterialPageRoute(
+          builder: (_) => hasPreferences
+              ? const HomeScreen()
+              : DestinationPickerScreen(
+                  onDestinationSelected: (city) {
+                    // you can save the selected city in a variable or controller here
+                    print('Selected City: $city');
+                  },
+                ),
+        ),
       );
     } on FirebaseAuthException catch (e) {
       setState(() => error = e.message ?? 'Login failed');
@@ -47,17 +75,16 @@ class _LoginFormState extends State<LoginForm> {
   Future<void> _signInWithGoogle() async {
     try {
       setState(() => loading = true);
-
       final googleSignIn = GoogleSignIn();
 
-      // 🔴 Force Google to show the account picker
+      // Force account picker
       await googleSignIn.signOut();
       await FirebaseAuth.instance.signOut();
 
       final googleUser = await googleSignIn.signIn();
       if (googleUser == null) {
         setState(() => loading = false);
-        return; // user canceled
+        return;
       }
 
       final googleAuth = await googleUser.authentication;
@@ -67,11 +94,37 @@ class _LoginFormState extends State<LoginForm> {
       );
 
       await FirebaseAuth.instance.signInWithCredential(credential);
+      final user = FirebaseAuth.instance.currentUser;
+      final userDocRef = FirebaseFirestore.instance
+          .collection('users')
+          .doc(user!.uid);
 
-      if (!mounted) return;
+      final existingDoc = await userDocRef.get();
+
+      await userDocRef.set({
+        'uid': user.uid,
+        'email': user.email,
+        'name': user.displayName ?? '',
+        'provider': 'google',
+        'lastLogin': FieldValue.serverTimestamp(),
+        if (!existingDoc.exists) 'createdAt': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+
+      final updatedDoc = await userDocRef.get();
+      final hasPreferences = updatedDoc.data()?['preferences'] != null;
+
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => const HomeScreen()),
+        MaterialPageRoute(
+          builder: (_) => hasPreferences
+              ? const HomeScreen()
+              : DestinationPickerScreen(
+                  onDestinationSelected: (city) {
+                    // you can save the selected city in a variable or controller here
+                    print('Selected City: $city');
+                  },
+                ),
+        ),
       );
     } catch (e) {
       setState(() => error = 'Google Sign-In failed: $e');
@@ -146,16 +199,24 @@ class _LoginFormState extends State<LoginForm> {
                 onPressed: widget.onToggle,
                 child: const Text("Don't have an account? Register"),
               ),
-              TextButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => const ForgotPasswordScreen(),
+              Align(
+                alignment: Alignment.centerRight,
+                child: TextButton(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (_) => const ForgotPasswordScreen(),
+                      ),
+                    );
+                  },
+                  child: const Text(
+                    "Forgot Password?",
+                    style: TextStyle(
+                      color: Colors.teal,
+                      fontWeight: FontWeight.bold,
                     ),
-                  );
-                },
-                child: const Text("Forgot Password?"),
+                  ),
+                ),
               ),
             ],
           ),

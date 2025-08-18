@@ -1,8 +1,8 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:triptide/firebase_options.dart';
+import 'package:triptide/screens/splash_screen.dart';
 import 'utils/theme.dart';
-import 'screens/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,7 +19,7 @@ class TripTideApp extends StatelessWidget {
       title: 'TripTide',
       theme: tripTideTheme,
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: const SplashScreen(), // Always start with splash screen
     );
   }
 }

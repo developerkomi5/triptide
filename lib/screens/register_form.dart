@@ -1,5 +1,7 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:triptide/screens/personalize/destination_picker_screen.dart';
 
 class RegisterForm extends StatefulWidget {
   final VoidCallback onToggle;
@@ -12,7 +14,7 @@ class RegisterForm extends StatefulWidget {
 
 class _RegisterFormState extends State<RegisterForm> {
   final _formKey = GlobalKey<FormState>();
-  String email = '', password = '', confirmPassword = '', error = '', name = '';
+  String email = '', password = '', confirmPassword = '', name = '', error = '';
   bool loading = false, showPassword = false;
 
   Future<void> _register() async {
@@ -28,22 +30,44 @@ class _RegisterFormState extends State<RegisterForm> {
 
     try {
       final auth = FirebaseAuth.instance;
-      await auth.createUserWithEmailAndPassword(
+      final result = await auth.createUserWithEmailAndPassword(
         email: email,
         password: password,
       );
-      await auth.currentUser?.updateDisplayName(name);
-      await auth.currentUser?.sendEmailVerification();
 
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text(
-            "Verification email sent. Please verify before logging in.",
+      final user = result.user;
+
+      if (user != null) {
+        await user.updateDisplayName(name);
+        await user.sendEmailVerification();
+
+        await FirebaseFirestore.instance.collection('users').doc(user.uid).set({
+          'uid': user.uid,
+          'email': user.email,
+          'name': name,
+          'createdAt': FieldValue.serverTimestamp(),
+        });
+
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              "Verification email sent. Please verify before logging in.",
+            ),
           ),
-        ),
-      );
-      widget.onToggle();
+        );
+
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (_) => DestinationPickerScreen(
+              onDestinationSelected: (city) {
+                // you can save the selected city in a variable or controller here
+                print('Selected City: $city');
+              },
+            ),
+          ),
+        );
+      }
     } on FirebaseAuthException catch (e) {
       setState(() => error = e.message ?? 'Registration failed');
     } finally {
@@ -66,10 +90,13 @@ class _RegisterFormState extends State<RegisterForm> {
           TextFormField(
             decoration: const InputDecoration(labelText: 'Full Name'),
             onSaved: (val) => name = val!.trim(),
+            validator: (val) =>
+                val != null && val.trim().length > 2 ? null : 'Enter full name',
           ),
 
           TextFormField(
             decoration: const InputDecoration(labelText: 'Email'),
+            keyboardType: TextInputType.emailAddress,
             onSaved: (val) => email = val!.trim(),
             validator: (val) =>
                 val != null && val.contains('@') ? null : 'Enter valid email',
@@ -86,7 +113,7 @@ class _RegisterFormState extends State<RegisterForm> {
                 onPressed: () => setState(() => showPassword = !showPassword),
               ),
             ),
-            onSaved: (val) => password = val!,
+            onSaved: (val) => password = val ?? '',
             validator: (val) =>
                 val != null && val.length >= 6 ? null : 'Min 6 characters',
           ),
@@ -94,7 +121,7 @@ class _RegisterFormState extends State<RegisterForm> {
           TextFormField(
             obscureText: !showPassword,
             decoration: const InputDecoration(labelText: 'Confirm Password'),
-            onSaved: (val) => confirmPassword = val!,
+            onSaved: (val) => confirmPassword = val ?? '',
             validator: (val) =>
                 val != null && val.length >= 6 ? null : 'Min 6 characters',
           ),
@@ -103,6 +130,7 @@ class _RegisterFormState extends State<RegisterForm> {
           if (error.isNotEmpty)
             Text(error, style: const TextStyle(color: Colors.red)),
 
+          const SizedBox(height: 10),
           ElevatedButton(
             onPressed: loading ? null : _register,
             child: const Text("Register"),

@@ -48,6 +48,9 @@ dependencies:
   lottie: ^3.3.1
   cloud_firestore: ^5.6.9
   google_sign_in: ^6.3.0
+  fluttertoast: ^8.2.12
+  cached_network_image: ^3.4.1
+  cloud_functions: ^5.6.2
 
 dev_dependencies:
   flutter_test:
@@ -74,12 +77,14 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/TripTide.png
+    - assets/images/
     - assets/google.png
     - assets/animations/loading.json
     - assets/animations/login.json
     - assets/animations/travel.json
     - assets/animations/trip.json
     - assets/animations/tripshare.json
+    - assets/animations/saving.json
 
   #   - images/a_dot_ham.jpeg
 

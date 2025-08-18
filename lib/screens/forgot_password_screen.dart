@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class ForgotPasswordScreen extends StatefulWidget {
   const ForgotPasswordScreen({super.key});
@@ -10,61 +11,96 @@ class ForgotPasswordScreen extends StatefulWidget {
 }
 
 class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
+  final _emailController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
-  String email = '';
-  String message = '';
-  bool loading = false;
+  bool _isLoading = false;
 
-  Future<void> _sendResetEmail() async {
+  Future<void> _resetPassword() async {
+    final email = _emailController.text.trim();
+
     if (!_formKey.currentState!.validate()) return;
-    _formKey.currentState!.save();
 
-    setState(() => loading = true);
+    setState(() {
+      _isLoading = true;
+    });
 
     try {
       await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
-      setState(() {
-        message = "Password reset email sent.";
-      });
+      Fluttertoast.showToast(msg: "Reset link sent! Check your email.");
+
+      // Update passwordChangedAt (optional)
+      final userQuery = await FirebaseFirestore.instance
+          .collection('users')
+          .where('email', isEqualTo: email)
+          .limit(1)
+          .get();
+
+      if (userQuery.docs.isNotEmpty) {
+        final uid = userQuery.docs.first.id;
+        await FirebaseFirestore.instance.collection('users').doc(uid).update({
+          'passwordChangedAt': FieldValue.serverTimestamp(),
+        });
+      }
+
+      Navigator.of(context).pop(); // Back to LoginScreen
     } on FirebaseAuthException catch (e) {
-      setState(() {
-        message = e.message ?? "Something went wrong";
-      });
+      Fluttertoast.showToast(msg: e.message ?? "Something went wrong.");
     } finally {
-      setState(() => loading = false);
+      setState(() {
+        _isLoading = false;
+      });
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Reset Password')),
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: const Text("Forgot Password"),
+        backgroundColor: Colors.teal,
+        foregroundColor: Colors.white,
+      ),
       body: Padding(
-        padding: const EdgeInsets.all(24.0),
+        padding: const EdgeInsets.all(24),
         child: Form(
           key: _formKey,
           child: Column(
             children: [
-              Text(
-                "Enter your email to receive password reset link",
-                style: GoogleFonts.poppins(fontSize: 16),
+              const SizedBox(height: 60),
+              const Text(
+                "Reset Your Password",
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),
               TextFormField(
-                decoration: const InputDecoration(labelText: 'Email'),
-                onSaved: (val) => email = val!.trim(),
-                validator: (val) => val != null && val.contains('@')
-                    ? null
-                    : 'Enter valid email',
+                controller: _emailController,
+                decoration: const InputDecoration(
+                  labelText: "Email",
+                  prefixIcon: Icon(Icons.email),
+                  border: OutlineInputBorder(),
+                ),
+                validator: (val) => val == null || !val.contains('@')
+                    ? "Enter valid email"
+                    : null,
               ),
-              const SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: loading ? null : _sendResetEmail,
-                child: const Text('Send Reset Link'),
-              ),
-              const SizedBox(height: 20),
-              if (message.isNotEmpty)
-                Text(message, style: const TextStyle(color: Colors.green)),
+              const SizedBox(height: 30),
+              _isLoading
+                  ? const CircularProgressIndicator()
+                  : ElevatedButton(
+                      onPressed: _resetPassword,
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.teal,
+                        padding: const EdgeInsets.symmetric(
+                          vertical: 12,
+                          horizontal: 32,
+                        ),
+                      ),
+                      child: const Text(
+                        "Send Reset Link",
+                        style: TextStyle(fontSize: 16),
+                      ),
+                    ),
             ],
           ),
         ),
