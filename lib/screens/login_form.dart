@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:provider/provider.dart';
+import 'package:triptide/providers/user_preferences_provider.dart';
 import 'package:triptide/screens/forgot_password_screen.dart';
 import 'package:triptide/screens/personalize/destination_picker_screen.dart';
 import '../screens/home_screen.dart';
@@ -51,6 +53,11 @@ class _LoginFormState extends State<LoginForm> {
 
       final updatedDoc = await userDocRef.get();
       final hasPreferences = updatedDoc.data()?['preferences'] != null;
+
+      await context
+          .read<UserPreferencesProvider>()
+          .loadPreferencesFromFirestore(user.uid);
+      await Future.delayed(const Duration(milliseconds: 300));
 
       Navigator.pushReplacement(
         context,
@@ -112,6 +119,11 @@ class _LoginFormState extends State<LoginForm> {
 
       final updatedDoc = await userDocRef.get();
       final hasPreferences = updatedDoc.data()?['preferences'] != null;
+
+      await context
+          .read<UserPreferencesProvider>()
+          .loadPreferencesFromFirestore(user.uid);
+      await Future.delayed(const Duration(milliseconds: 300));
 
       Navigator.pushReplacement(
         context,

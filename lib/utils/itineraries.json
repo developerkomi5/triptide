@@ -1,0 +1,742 @@
+[
+    {
+  "title": "Paris Weekend Escape",
+  "destination": "Paris",
+  "duration": "3",
+  "days": [
+    { "activities": ["Eiffel Tower", "Seine River Cruise", "Louvre Museum", "Macaron tasting", "Montmartre walk"] },
+    { "activities": ["Notre-Dame Cathedral", "Latin Quarter", "Rodin Museum", "Champs-Élysées", "Arc de Triomphe"] },
+    { "activities": ["Versailles Palace", "Luxembourg Gardens", "Le Marais", "Opera Garnier", "Sunset picnic"] }
+  ]
+},
+{
+  "title": "Paris Short Trip",
+  "destination": "Paris",
+  "duration": "5",
+  "days": [
+    { "activities": ["Eiffel Tower", "Seine Cruise", "Louvre", "Macaron tasting", "Montmartre"] },
+    { "activities": ["Notre-Dame", "Latin Quarter", "Rodin Museum", "Champs-Élysées", "Arc de Triomphe"] },
+    { "activities": ["Versailles", "Luxembourg Gardens", "Le Marais", "Opera Garnier", "Street art tour"] },
+    { "activities": ["Picasso Museum", "Crepe café", "Shopping", "Sunset view", "Final brunch"] },
+    { "activities": ["Photo recap", "Souvenir shopping", "Farewell walk", "Jazz club", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Paris One Week",
+  "destination": "Paris",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Eiffel Tower", "Seine Cruise", "Louvre", "Macaron tasting", "Montmartre"] },
+    { "activities": ["Notre-Dame", "Latin Quarter", "Rodin Museum", "Champs-Élysées", "Arc de Triomphe"] },
+    { "activities": ["Versailles", "Luxembourg Gardens", "Le Marais", "Opera Garnier", "Street art tour"] },
+    { "activities": ["Picasso Museum", "Crepe café", "Shopping", "Sunset view", "Final brunch"] },
+    { "activities": ["Photo recap", "Souvenir shopping", "Farewell walk", "Jazz club", "Goodbye view"] },
+    { "activities": ["Day trip to Giverny", "Monet’s Garden", "Lunch in countryside", "Art walk", "Photography"] },
+    { "activities": ["Bike tour", "Canal Saint-Martin", "Local bakery", "Tea salon", "Evening stroll"] }
+  ]
+},
+{
+  "title": "Paris 10 Days",
+  "destination": "Paris",
+  "duration": "10",
+  "days": [
+    { "activities": ["Eiffel Tower", "Seine Cruise", "Louvre", "Macaron tasting", "Montmartre"] },
+    { "activities": ["Notre-Dame", "Latin Quarter", "Rodin Museum", "Champs-Élysées", "Arc de Triomphe"] },
+    { "activities": ["Versailles", "Luxembourg Gardens", "Le Marais", "Opera Garnier", "Street art tour"] },
+    { "activities": ["Picasso Museum", "Crepe café", "Shopping", "Sunset view", "Final brunch"] },
+    { "activities": ["Photo recap", "Souvenir shopping", "Farewell walk", "Jazz club", "Goodbye view"] },
+    { "activities": ["Giverny day trip", "Monet’s Garden", "Lunch", "Art walk", "Photography"] },
+    { "activities": ["Bike tour", "Canal Saint-Martin", "Bakery", "Tea salon", "Evening stroll"] },
+    { "activities": ["Pantheon", "Sorbonne", "Literary café", "Bookstore visit", "Philosophy walk"] },
+    { "activities": ["Cooking class", "Wine tasting", "Market visit", "Cheese pairing", "Dinner party"] },
+    { "activities": ["Hidden passageways tour", "Vintage shopping", "Street music", "Final sunset", "Farewell toast"] }
+  ]
+},
+{
+  "title": "Paris Long Vacation",
+  "destination": "Paris",
+  "duration": "14",
+  "days": [
+    { "activities": ["Eiffel Tower", "Seine Cruise", "Louvre", "Macaron tasting", "Montmartre"] },
+    { "activities": ["Notre-Dame", "Latin Quarter", "Rodin Museum", "Champs-Élysées", "Arc de Triomphe"] },
+    { "activities": ["Versailles", "Luxembourg Gardens", "Le Marais", "Opera Garnier", "Street art tour"] },
+    { "activities": ["Picasso Museum", "Crepe café", "Shopping", "Sunset view", "Final brunch"] },
+    { "activities": ["Photo recap", "Souvenir shopping", "Farewell walk", "Jazz club", "Goodbye view"] },
+    { "activities": ["Giverny day trip", "Monet’s Garden", "Lunch", "Art walk", "Photography"] },
+    { "activities": ["Bike tour", "Canal Saint-Martin", "Bakery", "Tea salon", "Evening stroll"] },
+    { "activities": ["Pantheon", "Sorbonne", "Literary café", "Bookstore visit", "Philosophy walk"] },
+    { "activities": ["Cooking class", "Wine tasting", "Market visit", "Cheese pairing", "Dinner party"] },
+    { "activities": ["Hidden passageways tour", "Vintage shopping", "Street music", "Final sunset", "Farewell toast"] },
+    { "activities": ["Day trip to Champagne", "Vineyard tour", "Lunch", "Cellar visit", "Tasting session"] },
+    { "activities": ["Art gallery tour", "Modern art", "Sketching workshop", "Museum café", "Evening show"] },
+    { "activities": ["Spa day", "Massage", "Tea lounge", "Relaxation walk", "Sunset meditation"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Tokyo Weekend Escape",
+  "destination": "Tokyo",
+  "duration": "3",
+  "days": [
+    { "activities": ["Shibuya Crossing", "Meiji Shrine", "Harajuku shopping", "Sushi tasting", "Tokyo Tower"] },
+    { "activities": ["Tsukiji Market", "Ueno Park", "Asakusa Temple", "Skytree view", "Ramen street"] },
+    { "activities": ["Ghibli Museum", "Akihabara", "Sumo match", "Cherry blossoms", "Final walk"] }
+  ]
+},
+{
+  "title": "Tokyo Short Trip",
+  "destination": "Tokyo",
+  "duration": "5",
+  "days": [
+    { "activities": ["Shibuya Crossing", "Meiji Shrine", "Harajuku shopping", "Sushi tasting", "Tokyo Tower"] },
+    { "activities": ["Tsukiji Market", "Ueno Park", "Asakusa Temple", "Skytree view", "Ramen street"] },
+    { "activities": ["Ghibli Museum", "Akihabara", "Sumo match", "Cherry blossoms", "Final walk"] },
+    { "activities": ["TeamLab Planets", "Odaiba beach", "Rainbow Bridge", "Shopping mall", "Sunset cruise"] },
+    { "activities": ["Mount Takao hike", "Nature walk", "Temple visit", "Lunch with view", "Return to city"] }
+  ]
+},
+{
+  "title": "Tokyo One Week",
+  "destination": "Tokyo",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Shibuya Crossing", "Meiji Shrine", "Harajuku shopping", "Sushi tasting", "Tokyo Tower"] },
+    { "activities": ["Tsukiji Market", "Ueno Park", "Asakusa Temple", "Skytree view", "Ramen street"] },
+    { "activities": ["Ghibli Museum", "Akihabara", "Sumo match", "Cherry blossoms", "Final walk"] },
+    { "activities": ["TeamLab Planets", "Odaiba beach", "Rainbow Bridge", "Shopping mall", "Sunset cruise"] },
+    { "activities": ["Mount Takao hike", "Nature walk", "Temple visit", "Lunch with view", "Return to city"] },
+    { "activities": ["Cooking class", "Tea ceremony", "Market tour", "Japanese sweets", "Cultural show"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Tokyo 10 Days",
+  "destination": "Tokyo",
+  "duration": "10",
+  "days": [
+    { "activities": ["Shibuya Crossing", "Meiji Shrine", "Harajuku shopping", "Sushi tasting", "Tokyo Tower"] },
+    { "activities": ["Tsukiji Market", "Ueno Park", "Asakusa Temple", "Skytree view", "Ramen street"] },
+    { "activities": ["Ghibli Museum", "Akihabara", "Sumo match", "Cherry blossoms", "Final walk"] },
+    { "activities": ["TeamLab Planets", "Odaiba beach", "Rainbow Bridge", "Shopping mall", "Sunset cruise"] },
+    { "activities": ["Mount Takao hike", "Nature walk", "Temple visit", "Lunch with view", "Return to city"] },
+    { "activities": ["Cooking class", "Tea ceremony", "Market tour", "Japanese sweets", "Cultural show"] },
+    { "activities": ["Day trip to Nikko", "Shrine visit", "Nature walk", "Local lunch", "Train ride"] },
+    { "activities": ["Anime café", "Manga museum", "Cosplay street", "Otaku tour", "Evening show"] },
+    { "activities": ["Spa day", "Massage", "Tea lounge", "Relaxation walk", "Sunset meditation"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Tokyo Long Vacation",
+  "destination": "Tokyo",
+  "duration": "14",
+  "days": [
+    { "activities": ["Shibuya Crossing", "Meiji Shrine", "Harajuku shopping", "Sushi tasting", "Tokyo Tower"] },
+    { "activities": ["Tsukiji Market", "Ueno Park", "Asakusa Temple", "Skytree view", "Ramen street"] },
+    { "activities": ["Ghibli Museum", "Akihabara", "Sumo match", "Cherry blossoms", "Final walk"] },
+    { "activities": ["TeamLab Planets", "Odaiba beach", "Rainbow Bridge", "Shopping mall", "Sunset cruise"] },
+    { "activities": ["Mount Takao hike", "Nature walk", "Temple visit", "Lunch with view", "Return to city"] },
+    { "activities": ["Cooking class", "Tea ceremony", "Market tour", "Japanese sweets", "Cultural show"] },
+    { "activities": ["Day trip to Nikko", "Shrine visit", "Nature walk", "Local lunch", "Train ride"] },
+    { "activities": ["Anime café", "Manga museum", "Cosplay street", "Otaku tour", "Evening show"] },
+    { "activities": ["Spa day", "Massage", "Tea lounge", "Relaxation walk", "Sunset meditation"] },
+    { "activities": ["Kamakura day trip", "Great Buddha", "Beach walk", "Temple tour", "Local snacks"] },
+    { "activities": ["Art gallery tour", "Modern art", "Sketching workshop", "Museum café", "Evening show"] },
+    { "activities": ["Bike tour", "River path", "Hidden alleys", "Street art", "Photography"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Zen garden visit", "Meditation session", "Tea tasting", "Cultural talk", "Evening stroll"] }
+  ]
+},
+{
+  "title": "NYC Weekend Escape",
+  "destination": "New York City",
+  "duration": "3",
+  "days": [
+    { "activities": ["Times Square", "Broadway show", "Central Park walk", "Pizza slice", "Empire State view"] },
+    { "activities": ["Statue of Liberty", "Wall Street", "9/11 Memorial", "Brooklyn Bridge", "DUMBO sunset"] },
+    { "activities": ["Museum of Modern Art", "Fifth Avenue shopping", "Rockefeller Center", "Bagel brunch", "Night skyline"] }
+  ]
+},
+{
+  "title": "NYC Short Trip",
+  "destination": "New York City",
+  "duration": "5",
+  "days": [
+    { "activities": ["Times Square", "Broadway show", "Central Park walk", "Pizza slice", "Empire State view"] },
+    { "activities": ["Statue of Liberty", "Wall Street", "9/11 Memorial", "Brooklyn Bridge", "DUMBO sunset"] },
+    { "activities": ["Museum of Modern Art", "Fifth Avenue shopping", "Rockefeller Center", "Bagel brunch", "Night skyline"] },
+    { "activities": ["Metropolitan Museum", "Upper East Side", "Guggenheim", "Hot dog cart", "Jazz club"] },
+    { "activities": ["Chelsea Market", "High Line walk", "Hudson Yards", "Edge observation deck", "Sunset cruise"] }
+  ]
+},
+{
+  "title": "NYC One Week",
+  "destination": "New York City",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Times Square", "Broadway show", "Central Park walk", "Pizza slice", "Empire State view"] },
+    { "activities": ["Statue of Liberty", "Wall Street", "9/11 Memorial", "Brooklyn Bridge", "DUMBO sunset"] },
+    { "activities": ["Museum of Modern Art", "Fifth Avenue shopping", "Rockefeller Center", "Bagel brunch", "Night skyline"] },
+    { "activities": ["Metropolitan Museum", "Upper East Side", "Guggenheim", "Hot dog cart", "Jazz club"] },
+    { "activities": ["Chelsea Market", "High Line walk", "Hudson Yards", "Edge observation deck", "Sunset cruise"] },
+    { "activities": ["Harlem tour", "Apollo Theater", "Soul food lunch", "Street art", "Evening gospel"] },
+    { "activities": ["Final brunch", "Souvenir shopping", "Photo recap", "Farewell walk", "Goodbye skyline"] }
+  ]
+},
+{
+  "title": "NYC 10 Days",
+  "destination": "New York City",
+  "duration": "10",
+  "days": [
+    { "activities": ["Times Square", "Broadway show", "Central Park walk", "Pizza slice", "Empire State view"] },
+    { "activities": ["Statue of Liberty", "Wall Street", "9/11 Memorial", "Brooklyn Bridge", "DUMBO sunset"] },
+    { "activities": ["Museum of Modern Art", "Fifth Avenue shopping", "Rockefeller Center", "Bagel brunch", "Night skyline"] },
+    { "activities": ["Metropolitan Museum", "Upper East Side", "Guggenheim", "Hot dog cart", "Jazz club"] },
+    { "activities": ["Chelsea Market", "High Line walk", "Hudson Yards", "Edge observation deck", "Sunset cruise"] },
+    { "activities": ["Harlem tour", "Apollo Theater", "Soul food lunch", "Street art", "Evening gospel"] },
+    { "activities": ["Bronx Zoo", "Botanical Garden", "Little Italy", "Cannoli tasting", "Evening stroll"] },
+    { "activities": ["Coney Island", "Beach walk", "Amusement park", "Nathan’s hot dog", "Boardwalk sunset"] },
+    { "activities": ["NYC bike tour", "Hidden alleys", "Street murals", "Photography", "Rooftop lounge"] },
+    { "activities": ["Final brunch", "Souvenir shopping", "Photo recap", "Farewell walk", "Goodbye skyline"] }
+  ]
+},
+{
+  "title": "NYC Long Vacation",
+  "destination": "New York City",
+  "duration": "14",
+  "days": [
+    { "activities": ["Times Square", "Broadway show", "Central Park walk", "Pizza slice", "Empire State view"] },
+    { "activities": ["Statue of Liberty", "Wall Street", "9/11 Memorial", "Brooklyn Bridge", "DUMBO sunset"] },
+    { "activities": ["Museum of Modern Art", "Fifth Avenue shopping", "Rockefeller Center", "Bagel brunch", "Night skyline"] },
+    { "activities": ["Metropolitan Museum", "Upper East Side", "Guggenheim", "Hot dog cart", "Jazz club"] },
+    { "activities": ["Chelsea Market", "High Line walk", "Hudson Yards", "Edge observation deck", "Sunset cruise"] },
+    { "activities": ["Harlem tour", "Apollo Theater", "Soul food lunch", "Street art", "Evening gospel"] },
+    { "activities": ["Bronx Zoo", "Botanical Garden", "Little Italy", "Cannoli tasting", "Evening stroll"] },
+    { "activities": ["Coney Island", "Beach walk", "Amusement park", "Nathan’s hot dog", "Boardwalk sunset"] },
+    { "activities": ["NYC bike tour", "Hidden alleys", "Street murals", "Photography", "Rooftop lounge"] },
+    { "activities": ["Greenwich Village", "Comedy club", "Indie bookstore", "Coffee tasting", "Night walk"] },
+    { "activities": ["Day trip to Washington DC", "Capitol tour", "White House view", "Museum visit", "Return train"] },
+    { "activities": ["Art gallery tour", "Modern installations", "Sketching workshop", "Museum café", "Evening show"] },
+    { "activities": ["Final brunch", "Souvenir shopping", "Photo recap", "Farewell walk", "Goodbye skyline"] },
+    { "activities": ["Spa day", "Massage", "Tea lounge", "Relaxation walk", "Sunset meditation"] }
+  ]
+},
+    {
+  "title": "Bali Weekend Escape",
+  "destination": "Bali",
+  "duration": "3",
+  "days": [
+    { "activities": ["Uluwatu Temple", "Kecak Fire Dance", "Jimbaran Beach dinner", "Garuda Wisnu statue", "Sunset cliff walk"] },
+    { "activities": ["Sacred Monkey Forest", "Tegallalang Rice Terrace", "Coffee plantation tour", "Ubud Palace", "Art market"] },
+    { "activities": ["Tanah Lot Temple", "Beach club visit", "Balinese cooking class", "Traditional spa", "Night market"] }
+  ]
+},
+{
+  "title": "Bali Short Trip",
+  "destination": "Bali",
+  "duration": "5",
+  "days": [
+    { "activities": ["Uluwatu Temple", "Kecak Dance", "Jimbaran dinner", "Cliff walk", "Beach time"] },
+    { "activities": ["Monkey Forest", "Rice Terrace", "Coffee tour", "Ubud Palace", "Art market"] },
+    { "activities": ["Tanah Lot", "Beach club", "Cooking class", "Spa", "Night market"] },
+    { "activities": ["Mount Batur sunrise trek", "Hot springs", "Breakfast with view", "Lake Batur", "Volcano museum"] },
+    { "activities": ["Nusa Dua beach", "Water sports", "Lunch by sea", "Shopping", "Sunset cruise"] }
+  ]
+},
+{
+  "title": "Bali One Week",
+  "destination": "Bali",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Uluwatu Temple", "Kecak Dance", "Jimbaran dinner", "Cliff walk", "Beach time"] },
+    { "activities": ["Monkey Forest", "Rice Terrace", "Coffee tour", "Ubud Palace", "Art market"] },
+    { "activities": ["Tanah Lot", "Beach club", "Cooking class", "Spa", "Night market"] },
+    { "activities": ["Mount Batur trek", "Hot springs", "Lake Batur", "Volcano museum", "Lunch"] },
+    { "activities": ["Nusa Dua beach", "Water sports", "Lunch by sea", "Shopping", "Sunset cruise"] },
+    { "activities": ["Snorkeling at Blue Lagoon", "Coral reef tour", "Lunch", "Beach walk", "Photography"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Bali 10 Days",
+  "destination": "Bali",
+  "duration": "10",
+  "days": [
+    { "activities": ["Uluwatu Temple", "Kecak Dance", "Jimbaran dinner", "Cliff walk", "Beach time"] },
+    { "activities": ["Monkey Forest", "Rice Terrace", "Coffee tour", "Ubud Palace", "Art market"] },
+    { "activities": ["Tanah Lot", "Beach club", "Cooking class", "Spa", "Night market"] },
+    { "activities": ["Mount Batur trek", "Hot springs", "Lake Batur", "Volcano museum", "Lunch"] },
+    { "activities": ["Nusa Dua beach", "Water sports", "Lunch by sea", "Shopping", "Sunset cruise"] },
+    { "activities": ["Snorkeling at Blue Lagoon", "Coral reef tour", "Lunch", "Beach walk", "Photography"] },
+    { "activities": ["Nusa Penida tour", "Angel’s Billabong", "Kelingking Beach", "Crystal Bay", "Island lunch"] },
+    { "activities": ["Cooking class", "Fruit carving", "Market visit", "Tuk-tuk ride", "Evening walk"] },
+    { "activities": ["Hidden waterfall trek", "Jungle walk", "Picnic", "Local café", "Sunset view"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Bali Long Vacation",
+  "destination": "Bali",
+  "duration": "14",
+  "days": [
+    { "activities": ["Uluwatu Temple", "Kecak Dance", "Jimbaran dinner", "Cliff walk", "Beach time"] },
+    { "activities": ["Monkey Forest", "Rice Terrace", "Coffee tour", "Ubud Palace", "Art market"] },
+    { "activities": ["Tanah Lot", "Beach club", "Cooking class", "Spa", "Night market"] },
+    { "activities": ["Mount Batur trek", "Hot springs", "Lake Batur", "Volcano museum", "Lunch"] },
+    { "activities": ["Nusa Dua beach", "Water sports", "Lunch by sea", "Shopping", "Sunset cruise"] },
+    { "activities": ["Snorkeling at Blue Lagoon", "Coral reef tour", "Lunch", "Beach walk", "Photography"] },
+    { "activities": ["Nusa Penida tour", "Angel’s Billabong", "Kelingking Beach", "Crystal Bay", "Island lunch"] },
+    { "activities": ["Cooking class", "Fruit carving", "Market visit", "Tuk-tuk ride", "Evening walk"] },
+    { "activities": ["Hidden waterfall trek", "Jungle walk", "Picnic", "Local café", "Sunset view"] },
+    { "activities": ["Day trip to Jatiluwih", "Rice fields", "Lunch", "Cultural show", "Photography"] },
+    { "activities": ["Art gallery tour", "Balinese painting", "Museum visit", "Craft workshop", "Tea tasting"] },
+    { "activities": ["Bike tour", "Village visit", "Temple walk", "Local snacks", "Riverfront dinner"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Beach yoga", "Spa day", "Healthy lunch", "Sunset meditation", "Evening stroll"] }
+  ]
+},
+{
+  "title": "London Weekend Escape",
+  "destination": "London",
+  "duration": "3",
+  "days": [
+    { "activities": ["Big Ben", "Westminster Abbey", "London Eye", "Thames River cruise", "South Bank walk"] },
+    { "activities": ["Buckingham Palace", "St. James’s Park", "Trafalgar Square", "National Gallery", "Covent Garden"] },
+    { "activities": ["Tower of London", "Tower Bridge", "Borough Market", "Sky Garden", "Evening pub tour"] }
+  ]
+},
+{
+  "title": "London Short Trip",
+  "destination": "London",
+  "duration": "5",
+  "days": [
+    { "activities": ["Big Ben", "Westminster Abbey", "London Eye", "Thames River cruise", "South Bank walk"] },
+    { "activities": ["Buckingham Palace", "St. James’s Park", "Trafalgar Square", "National Gallery", "Covent Garden"] },
+    { "activities": ["Tower of London", "Tower Bridge", "Borough Market", "Sky Garden", "Evening pub tour"] },
+    { "activities": ["British Museum", "Oxford Street shopping", "Soho café crawl", "Piccadilly Circus", "West End show"] },
+    { "activities": ["Camden Market", "Regent’s Canal walk", "Street art tour", "Local brunch", "Final shopping"] }
+  ]
+},
+{
+  "title": "London One Week",
+  "destination": "London",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Big Ben", "Westminster Abbey", "London Eye", "Thames River cruise", "South Bank walk"] },
+    { "activities": ["Buckingham Palace", "St. James’s Park", "Trafalgar Square", "National Gallery", "Covent Garden"] },
+    { "activities": ["Tower of London", "Tower Bridge", "Borough Market", "Sky Garden", "Evening pub tour"] },
+    { "activities": ["British Museum", "Oxford Street shopping", "Soho café crawl", "Piccadilly Circus", "West End show"] },
+    { "activities": ["Camden Market", "Regent’s Canal walk", "Street art tour", "Local brunch", "Final shopping"] },
+    { "activities": ["Greenwich tour", "Royal Observatory", "Cutty Sark", "River walk", "Sunset view"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "London 10 Days",
+  "destination": "London",
+  "duration": "10",
+  "days": [
+    { "activities": ["Big Ben", "Westminster Abbey", "London Eye", "Thames River cruise", "South Bank walk"] },
+    { "activities": ["Buckingham Palace", "St. James’s Park", "Trafalgar Square", "National Gallery", "Covent Garden"] },
+    { "activities": ["Tower of London", "Tower Bridge", "Borough Market", "Sky Garden", "Evening pub tour"] },
+    { "activities": ["British Museum", "Oxford Street shopping", "Soho café crawl", "Piccadilly Circus", "West End show"] },
+    { "activities": ["Camden Market", "Regent’s Canal walk", "Street art tour", "Local brunch", "Final shopping"] },
+    { "activities": ["Greenwich tour", "Royal Observatory", "Cutty Sark", "River walk", "Sunset view"] },
+    { "activities": ["Kensington Palace", "Hyde Park", "Serpentine Gallery", "Afternoon tea", "Royal Albert Hall"] },
+    { "activities": ["Day trip to Windsor", "Castle tour", "Lunch", "Photography", "Train ride"] },
+    { "activities": ["Science Museum", "Natural History Museum", "Exhibition Road", "Café break", "Sunset walk"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "London Long Vacation",
+  "destination": "London",
+  "duration": "14",
+  "days": [
+    { "activities": ["Big Ben", "Westminster Abbey", "London Eye", "Thames River cruise", "South Bank walk"] },
+    { "activities": ["Buckingham Palace", "St. James’s Park", "Trafalgar Square", "National Gallery", "Covent Garden"] },
+    { "activities": ["Tower of London", "Tower Bridge", "Borough Market", "Sky Garden", "Evening pub tour"] },
+    { "activities": ["British Museum", "Oxford Street shopping", "Soho café crawl", "Piccadilly Circus", "West End show"] },
+    { "activities": ["Camden Market", "Regent’s Canal walk", "Street art tour", "Local brunch", "Final shopping"] },
+    { "activities": ["Greenwich tour", "Royal Observatory", "Cutty Sark", "River walk", "Sunset view"] },
+    { "activities": ["Kensington Palace", "Hyde Park", "Serpentine Gallery", "Afternoon tea", "Royal Albert Hall"] },
+    { "activities": ["Day trip to Windsor", "Castle tour", "Lunch", "Photography", "Train ride"] },
+    { "activities": ["Science Museum", "Natural History Museum", "Exhibition Road", "Café break", "Sunset walk"] },
+    { "activities": ["Notting Hill walk", "Portobello Road", "Vintage shopping", "Local bakery", "Photo tour"] },
+    { "activities": ["Hampstead Heath", "Kenwood House", "Picnic", "Viewpoint", "Evening stroll"] },
+    { "activities": ["Cooking class", "Market visit", "Cheese tasting", "Fashion street", "Live music"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Hidden gardens", "Photography walk", "Picnic", "Local café", "Evening stroll"] }
+  ]
+},
+{
+  "title": "Sydney Weekend Escape",
+  "destination": "Sydney",
+  "duration": "3",
+  "days": [
+    { "activities": ["Sydney Opera House", "Harbour Bridge walk", "Bondi Beach", "Fish market", "Sunset ferry"] },
+    { "activities": ["Taronga Zoo", "Manly Beach", "Art Gallery of NSW", "Royal Botanic Gardens", "Skywalk at Sydney Tower"] },
+    { "activities": ["Blue Mountains day trip", "Scenic railway", "Bushwalk", "Wildlife park", "Local lunch"] }
+  ]
+},
+{
+  "title": "Sydney Short Trip",
+  "destination": "Sydney",
+  "duration": "5",
+  "days": [
+    { "activities": ["Opera House tour", "Harbour Bridge climb", "Circular Quay", "Museum of Contemporary Art", "Sunset cruise"] },
+    { "activities": ["Bondi to Coogee walk", "Beach café", "Surf lesson", "Icebergs pool", "Evening market"] },
+    { "activities": ["Taronga Zoo", "Ferry ride", "Manly Beach", "Local lunch", "Art gallery"] },
+    { "activities": ["Blue Mountains", "Three Sisters", "Scenic World", "Bushwalk", "Picnic"] },
+    { "activities": ["Paddington Markets", "Hyde Park", "Queen Victoria Building", "Shopping", "Final dinner"] }
+  ]
+},
+{
+  "title": "Sydney One Week",
+  "destination": "Sydney",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Opera House", "Harbour Bridge", "Circular Quay", "Museum visit", "Sunset cruise"] },
+    { "activities": ["Bondi Beach", "Surf lesson", "Coogee walk", "Icebergs pool", "Beach café"] },
+    { "activities": ["Taronga Zoo", "Ferry ride", "Manly Beach", "Lunch", "Art gallery"] },
+    { "activities": ["Blue Mountains", "Three Sisters", "Scenic World", "Bushwalk", "Picnic"] },
+    { "activities": ["Paddington Markets", "Hyde Park", "Queen Victoria Building", "Shopping", "Dinner"] },
+    { "activities": ["Darling Harbour", "Sea Life Aquarium", "Wildlife World", "Chinese Garden", "Evening stroll"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Sydney 10 Days",
+  "destination": "Sydney",
+  "duration": "10",
+  "days": [
+    { "activities": ["Opera House", "Harbour Bridge", "Circular Quay", "Museum visit", "Sunset cruise"] },
+    { "activities": ["Bondi Beach", "Surf lesson", "Coogee walk", "Icebergs pool", "Beach café"] },
+    { "activities": ["Taronga Zoo", "Ferry ride", "Manly Beach", "Lunch", "Art gallery"] },
+    { "activities": ["Blue Mountains", "Three Sisters", "Scenic World", "Bushwalk", "Picnic"] },
+    { "activities": ["Paddington Markets", "Hyde Park", "Queen Victoria Building", "Shopping", "Dinner"] },
+    { "activities": ["Darling Harbour", "Sea Life Aquarium", "Wildlife World", "Chinese Garden", "Evening stroll"] },
+    { "activities": ["Watsons Bay", "Lighthouse walk", "Fish & chips", "Beach time", "Sunset view"] },
+    { "activities": ["Barangaroo Reserve", "Picnic", "Art installations", "Harbour walk", "Local café"] },
+    { "activities": ["Museum of Sydney", "Historic tour", "Lunch", "Photography", "Evening market"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Sydney Long Vacation",
+  "destination": "Sydney",
+  "duration": "14",
+  "days": [
+    { "activities": ["Opera House", "Harbour Bridge", "Circular Quay", "Museum visit", "Sunset cruise"] },
+    { "activities": ["Bondi Beach", "Surf lesson", "Coogee walk", "Icebergs pool", "Beach café"] },
+    { "activities": ["Taronga Zoo", "Ferry ride", "Manly Beach", "Lunch", "Art gallery"] },
+    { "activities": ["Blue Mountains", "Three Sisters", "Scenic World", "Bushwalk", "Picnic"] },
+    { "activities": ["Paddington Markets", "Hyde Park", "Queen Victoria Building", "Shopping", "Dinner"] },
+    { "activities": ["Darling Harbour", "Sea Life Aquarium", "Wildlife World", "Chinese Garden", "Evening stroll"] },
+    { "activities": ["Watsons Bay", "Lighthouse walk", "Fish & chips", "Beach time", "Sunset view"] },
+    { "activities": ["Barangaroo Reserve", "Picnic", "Art installations", "Harbour walk", "Local café"] },
+    { "activities": ["Museum of Sydney", "Historic tour", "Lunch", "Photography", "Evening market"] },
+    { "activities": ["Day trip to Hunter Valley", "Wine tasting", "Lunch", "Scenic drive", "Return"] },
+    { "activities": ["Cooking class", "Market visit", "Cheese tasting", "Fashion street", "Live music"] },
+    { "activities": ["Bike tour", "Hidden alleys", "Street art", "Local snacks", "Riverfront dinner"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Beach yoga", "Spa day", "Healthy lunch", "Sunset meditation", "Evening stroll"] }
+  ]
+},
+{
+  "title": "Rome Weekend Escape",
+  "destination": "Rome",
+  "duration": "3",
+  "days": [
+    { "activities": ["Colosseum", "Roman Forum", "Trevi Fountain", "Pantheon", "Gelato tasting"] },
+    { "activities": ["Vatican Museums", "St. Peter’s Basilica", "Sistine Chapel", "Piazza Navona", "Trastevere"] },
+    { "activities": ["Villa Borghese", "Spanish Steps", "Shopping street", "Pizza making class", "Night walk"] }
+  ]
+},
+{
+  "title": "Rome Short Trip",
+  "destination": "Rome",
+  "duration": "5",
+  "days": [
+    { "activities": ["Colosseum", "Roman Forum", "Trevi Fountain", "Pantheon", "Gelato tasting"] },
+    { "activities": ["Vatican Museums", "St. Peter’s Basilica", "Sistine Chapel", "Piazza Navona", "Trastevere"] },
+    { "activities": ["Villa Borghese", "Spanish Steps", "Shopping street", "Pizza making class", "Night walk"] },
+    { "activities": ["Catacombs tour", "Appian Way", "Local market", "Cooking class", "Wine tasting"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell dinner", "Goodbye walk"] }
+  ]
+},
+{
+  "title": "Rome One Week",
+  "destination": "Rome",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Colosseum", "Roman Forum", "Trevi Fountain", "Pantheon", "Gelato tasting"] },
+    { "activities": ["Vatican Museums", "St. Peter’s Basilica", "Sistine Chapel", "Piazza Navona", "Trastevere"] },
+    { "activities": ["Villa Borghese", "Spanish Steps", "Shopping street", "Pizza making class", "Night walk"] },
+    { "activities": ["Catacombs tour", "Appian Way", "Local market", "Cooking class", "Wine tasting"] },
+    { "activities": ["Campo de' Fiori", "Jewish Ghetto", "Tiber Island", "Street food tour", "Sunset view"] },
+    { "activities": ["Capitoline Museums", "Michelangelo’s Piazza", "Photography walk", "Café break", "Evening stroll"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell dinner", "Goodbye walk"] }
+  ]
+},
+{
+  "title": "Rome 10 Days",
+  "destination": "Rome",
+  "duration": "10",
+  "days": [
+    { "activities": ["Colosseum", "Roman Forum", "Trevi Fountain", "Pantheon", "Gelato tasting"] },
+    { "activities": ["Vatican Museums", "St. Peter’s Basilica", "Sistine Chapel", "Piazza Navona", "Trastevere"] },
+    { "activities": ["Villa Borghese", "Spanish Steps", "Shopping street", "Pizza making class", "Night walk"] },
+    { "activities": ["Catacombs tour", "Appian Way", "Local market", "Cooking class", "Wine tasting"] },
+    { "activities": ["Campo de' Fiori", "Jewish Ghetto", "Tiber Island", "Street food tour", "Sunset view"] },
+    { "activities": ["Capitoline Museums", "Michelangelo’s Piazza", "Photography walk", "Café break", "Evening stroll"] },
+    { "activities": ["Day trip to Tivoli", "Villa d’Este", "Villa Adriana", "Lunch", "Return train"] },
+    { "activities": ["Testaccio Market", "Food tasting", "Local bakery", "Street art", "Sunset view"] },
+    { "activities": ["Cooking class", "Fruit carving", "Market visit", "Tuk-tuk ride", "Evening walk"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell dinner", "Goodbye walk"] }
+  ]
+},
+{
+  "title": "Rome Long Vacation",
+  "destination": "Rome",
+  "duration": "14",
+  "days": [
+    { "activities": ["Colosseum", "Roman Forum", "Trevi Fountain", "Pantheon", "Gelato tasting"] },
+    { "activities": ["Vatican Museums", "St. Peter’s Basilica", "Sistine Chapel", "Piazza Navona", "Trastevere"] },
+    { "activities": ["Villa Borghese", "Spanish Steps", "Shopping street", "Pizza making class", "Night walk"] },
+    { "activities": ["Catacombs tour", "Appian Way", "Local market", "Cooking class", "Wine tasting"] },
+    { "activities": ["Campo de' Fiori", "Jewish Ghetto", "Tiber Island", "Street food tour", "Sunset view"] },
+    { "activities": ["Capitoline Museums", "Michelangelo’s Piazza", "Photography walk", "Café break", "Evening stroll"] },
+    { "activities": ["Day trip to Tivoli", "Villa d’Este", "Villa Adriana", "Lunch", "Return train"] },
+    { "activities": ["Testaccio Market", "Food tasting", "Local bakery", "Street art", "Sunset view"] },
+    { "activities": ["Cooking class", "Fruit carving", "Market visit", "Tuk-tuk ride", "Evening walk"] },
+    { "activities": ["Hidden gardens", "Photography walk", "Picnic", "Local café", "Evening stroll"] },
+    { "activities": ["Bike tour", "River path", "Shrine visit", "Street food", "Sunset view"] },
+    { "activities": ["Museum day", "Interactive exhibits", "History walk", "Café break", "Sunset cruise"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Beach day at Lido di Ostia", "Train ride", "Seafood lunch", "Beach walk", "Return to Rome"] }
+  ]
+},
+{
+  "title": "Dubai Weekend Escape",
+  "destination": "Dubai",
+  "duration": "3",
+  "days": [
+    { "activities": ["Burj Khalifa", "Dubai Mall", "Fountain show", "Desert safari", "Camel ride"] },
+    { "activities": ["Palm Jumeirah", "Atlantis tour", "Beach club", "Luxury shopping", "Skydiving"] },
+    { "activities": ["Gold Souk", "Spice Market", "Creek boat ride", "Museum visit", "Final dinner"] }
+  ]
+},
+{
+  "title": "Dubai Short Trip",
+  "destination": "Dubai",
+  "duration": "5",
+  "days": [
+    { "activities": ["Burj Khalifa", "Dubai Mall", "Fountain show", "Desert safari", "Camel ride"] },
+    { "activities": ["Palm Jumeirah", "Atlantis tour", "Beach club", "Luxury shopping", "Skydiving"] },
+    { "activities": ["Gold Souk", "Spice Market", "Creek boat ride", "Museum visit", "Final dinner"] },
+    { "activities": ["Dubai Marina", "Yacht tour", "Beach walk", "Dinner cruise", "Sunset view"] },
+    { "activities": ["Global Village", "Cultural pavilions", "Street food", "Live shows", "Shopping"] }
+  ]
+},
+{
+  "title": "Dubai One Week",
+  "destination": "Dubai",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Burj Khalifa", "Dubai Mall", "Fountain show", "Desert safari", "Camel ride"] },
+    { "activities": ["Palm Jumeirah", "Atlantis tour", "Beach club", "Luxury shopping", "Skydiving"] },
+    { "activities": ["Gold Souk", "Spice Market", "Creek boat ride", "Museum visit", "Final dinner"] },
+    { "activities": ["Dubai Marina", "Yacht tour", "Beach walk", "Dinner cruise", "Sunset view"] },
+    { "activities": ["Global Village", "Cultural pavilions", "Street food", "Live shows", "Shopping"] },
+    { "activities": ["Miracle Garden", "Butterfly Garden", "Photo tour", "Café break", "Evening stroll"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Dubai 10 Days",
+  "destination": "Dubai",
+  "duration": "10",
+  "days": [
+    { "activities": ["Burj Khalifa", "Dubai Mall", "Fountain show", "Desert safari", "Camel ride"] },
+    { "activities": ["Palm Jumeirah", "Atlantis tour", "Beach club", "Luxury shopping", "Skydiving"] },
+    { "activities": ["Gold Souk", "Spice Market", "Creek boat ride", "Museum visit", "Final dinner"] },
+    { "activities": ["Dubai Marina", "Yacht tour", "Beach walk", "Dinner cruise", "Sunset view"] },
+    { "activities": ["Global Village", "Cultural pavilions", "Street food", "Live shows", "Shopping"] },
+    { "activities": ["Miracle Garden", "Butterfly Garden", "Photo tour", "Café break", "Evening stroll"] },
+    { "activities": ["Ski Dubai", "Mall of the Emirates", "Snow park", "Hot chocolate", "Shopping"] },
+    { "activities": ["Al Fahidi Historical District", "Coffee Museum", "Art gallery", "Cultural tour", "Souk visit"] },
+    { "activities": ["Dubai Frame", "Zabeel Park", "Panoramic view", "Picnic", "Sunset"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Dubai Long Vacation",
+  "destination": "Dubai",
+  "duration": "14",
+  "days": [
+    { "activities": ["Burj Khalifa", "Dubai Mall", "Fountain show", "Desert safari", "Camel ride"] },
+    { "activities": ["Palm Jumeirah", "Atlantis tour", "Beach club", "Luxury shopping", "Skydiving"] },
+    { "activities": ["Gold Souk", "Spice Market", "Creek boat ride", "Museum visit", "Final dinner"] },
+    { "activities": ["Dubai Marina", "Yacht tour", "Beach walk", "Dinner cruise", "Sunset view"] },
+    { "activities": ["Global Village", "Cultural pavilions", "Street food", "Live shows", "Shopping"] },
+    { "activities": ["Miracle Garden", "Butterfly Garden", "Photo tour", "Café break", "Evening stroll"] },
+    { "activities": ["Ski Dubai", "Mall of the Emirates", "Snow park", "Hot chocolate", "Shopping"] },
+    { "activities": ["Al Fahidi Historical District", "Coffee Museum", "Art gallery", "Cultural tour", "Souk visit"] },
+    { "activities": ["Dubai Frame", "Zabeel Park", "Panoramic view", "Picnic", "Sunset"] },
+    { "activities": ["Day trip to Abu Dhabi", "Sheikh Zayed Mosque", "Louvre Abu Dhabi", "Corniche", "Return"] },
+    { "activities": ["Cooking class", "Market visit", "Spice tasting", "Fashion street", "Live music"] },
+    { "activities": ["Bike tour", "Creek path", "Street art", "Local snacks", "Riverfront dinner"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Beach yoga", "Spa day", "Healthy lunch", "Sunset meditation", "Evening stroll"] }
+  ]
+},
+{
+  "title": "Istanbul Weekend Escape",
+  "destination": "Istanbul",
+  "duration": "3",
+  "days": [
+    { "activities": ["Blue Mosque", "Hagia Sophia", "Topkapi Palace", "Grand Bazaar", "Turkish delight tasting"] },
+    { "activities": ["Bosphorus cruise", "Spice Bazaar", "Local hammam", "Street food tour", "Art museum"] },
+    { "activities": ["Galata Tower", "Istiklal Street", "Café crawl", "Shopping", "Sunset view"] }
+  ]
+},
+{
+  "title": "Istanbul Short Trip",
+  "destination": "Istanbul",
+  "duration": "5",
+  "days": [
+    { "activities": ["Blue Mosque", "Hagia Sophia", "Topkapi Palace", "Grand Bazaar", "Turkish delight tasting"] },
+    { "activities": ["Bosphorus cruise", "Spice Bazaar", "Local hammam", "Street food tour", "Art museum"] },
+    { "activities": ["Galata Tower", "Istiklal Street", "Café crawl", "Shopping", "Sunset view"] },
+    { "activities": ["Asian side tour", "Kadıköy market", "Ferry ride", "Tea tasting", "Final dinner"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Istanbul One Week",
+  "destination": "Istanbul",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Blue Mosque", "Hagia Sophia", "Topkapi Palace", "Grand Bazaar", "Turkish delight tasting"] },
+    { "activities": ["Bosphorus cruise", "Spice Bazaar", "Local hammam", "Street food tour", "Art museum"] },
+    { "activities": ["Galata Tower", "Istiklal Street", "Café crawl", "Shopping", "Sunset view"] },
+    { "activities": ["Asian side tour", "Kadıköy market", "Ferry ride", "Tea tasting", "Final dinner"] },
+    { "activities": ["Dolmabahçe Palace", "Beşiktaş walk", "Museum visit", "Seafood lunch", "Sunset ferry"] },
+    { "activities": ["Süleymaniye Mosque", "Fatih district", "Local bakery", "Photography walk", "Evening stroll"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Istanbul 10 Days",
+  "destination": "Istanbul",
+  "duration": "10",
+  "days": [
+    { "activities": ["Blue Mosque", "Hagia Sophia", "Topkapi Palace", "Grand Bazaar", "Turkish delight tasting"] },
+    { "activities": ["Bosphorus cruise", "Spice Bazaar", "Local hammam", "Street food tour", "Art museum"] },
+    { "activities": ["Galata Tower", "Istiklal Street", "Café crawl", "Shopping", "Sunset view"] },
+    { "activities": ["Asian side tour", "Kadıköy market", "Ferry ride", "Tea tasting", "Final dinner"] },
+    { "activities": ["Dolmabahçe Palace", "Beşiktaş walk", "Museum visit", "Seafood lunch", "Sunset ferry"] },
+    { "activities": ["Süleymaniye Mosque", "Fatih district", "Local bakery", "Photography walk", "Evening stroll"] },
+    { "activities": ["Pierre Loti Hill", "Cable car ride", "Golden Horn view", "Tea house", "Sunset"] },
+    { "activities": ["Chora Church", "Byzantine mosaics", "Museum visit", "Lunch", "Art walk"] },
+    { "activities": ["Cooking class", "Market visit", "Spice tasting", "Fashion street", "Live music"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Istanbul Long Vacation",
+  "destination": "Istanbul",
+  "duration": "14",
+  "days": [
+    { "activities": ["Blue Mosque", "Hagia Sophia", "Topkapi Palace", "Grand Bazaar", "Turkish delight tasting"] },
+    { "activities": ["Bosphorus cruise", "Spice Bazaar", "Local hammam", "Street food tour", "Art museum"] },
+    { "activities": ["Galata Tower", "Istiklal Street", "Café crawl", "Shopping", "Sunset view"] },
+    { "activities": ["Asian side tour", "Kadıköy market", "Ferry ride", "Tea tasting", "Final dinner"] },
+    { "activities": ["Dolmabahçe Palace", "Beşiktaş walk", "Museum visit", "Seafood lunch", "Sunset ferry"] },
+    { "activities": ["Süleymaniye Mosque", "Fatih district", "Local bakery", "Photography walk", "Evening stroll"] },
+    { "activities": ["Pierre Loti Hill", "Cable car ride", "Golden Horn view", "Tea house", "Sunset"] },
+    { "activities": ["Chora Church", "Byzantine mosaics", "Museum visit", "Lunch", "Art walk"] },
+    { "activities": ["Cooking class", "Market visit", "Spice tasting", "Fashion street", "Live music"] },
+    { "activities": ["Day trip to Princes’ Islands", "Bicycle tour", "Seafood lunch", "Beach time", "Return ferry"] },
+    { "activities": ["Museum of Turkish and Islamic Arts", "History walk", "Café break", "Sunset cruise", "Evening stroll"] },
+    { "activities": ["Hidden gardens", "Photography walk", "Picnic", "Local café", "Evening stroll"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Beach yoga", "Spa day", "Healthy lunch", "Sunset meditation", "Evening stroll"] }
+  ]
+},
+{
+  "title": "Bangkok Weekend Escape",
+  "destination": "Bangkok",
+  "duration": "3",
+  "days": [
+    { "activities": ["Grand Palace", "Wat Phra Kaew", "Wat Pho", "Reclining Buddha", "Riverfront walk"] },
+    { "activities": ["Chao Phraya boat ride", "Wat Arun", "Street food tour", "Flower market", "Rooftop sunset"] },
+    { "activities": ["Chatuchak Market", "Thai massage", "Art gallery", "Local café crawl", "Night market"] }
+  ]
+},
+{
+  "title": "Bangkok Short Trip",
+  "destination": "Bangkok",
+  "duration": "5",
+  "days": [
+    { "activities": ["Grand Palace", "Wat Phra Kaew", "Wat Pho", "Reclining Buddha", "Riverfront walk"] },
+    { "activities": ["Chao Phraya boat ride", "Wat Arun", "Street food tour", "Flower market", "Rooftop sunset"] },
+    { "activities": ["Chatuchak Market", "Thai massage", "Art gallery", "Local café crawl", "Night market"] },
+    { "activities": ["Jim Thompson House", "Silk museum", "Canal tour", "Floating lunch", "Cultural show"] },
+    { "activities": ["Asiatique Riverfront", "Ferris wheel", "Jurassic World theme park", "Dinner cruise", "Live music"] }
+  ]
+},
+{
+  "title": "Bangkok One Week",
+  "destination": "Bangkok",
+  "duration": "One Week",
+  "days": [
+    { "activities": ["Grand Palace", "Wat Phra Kaew", "Wat Pho", "Reclining Buddha", "Riverfront walk"] },
+    { "activities": ["Chao Phraya boat ride", "Wat Arun", "Street food tour", "Flower market", "Rooftop sunset"] },
+    { "activities": ["Chatuchak Market", "Thai massage", "Art gallery", "Local café crawl", "Night market"] },
+    { "activities": ["Jim Thompson House", "Silk museum", "Canal tour", "Floating lunch", "Cultural show"] },
+    { "activities": ["Asiatique Riverfront", "Ferris wheel", "Jurassic World theme park", "Dinner cruise", "Live music"] },
+    { "activities": ["Ayutthaya day trip", "Temple ruins", "Elephant village", "River lunch", "Train ride"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Bangkok 10 Days",
+  "destination": "Bangkok",
+  "duration": "10",
+  "days": [
+    { "activities": ["Grand Palace", "Wat Phra Kaew", "Wat Pho", "Reclining Buddha", "Riverfront walk"] },
+    { "activities": ["Chao Phraya boat ride", "Wat Arun", "Street food tour", "Flower market", "Rooftop sunset"] },
+    { "activities": ["Chatuchak Market", "Thai massage", "Art gallery", "Local café crawl", "Night market"] },
+    { "activities": ["Jim Thompson House", "Silk museum", "Canal tour", "Floating lunch", "Cultural show"] },
+    { "activities": ["Asiatique Riverfront", "Ferris wheel", "Jurassic World theme park", "Dinner cruise", "Live music"] },
+    { "activities": ["Ayutthaya day trip", "Temple ruins", "Elephant village", "River lunch", "Train ride"] },
+    { "activities": ["Cooking class", "Fruit carving", "Market visit", "Tuk-tuk ride", "Evening walk"] },
+    { "activities": ["Museum of Siam", "Interactive exhibits", "History walk", "Café break", "Sunset cruise"] },
+    { "activities": ["Shopping day", "Massage therapy", "Tea tasting", "Fashion street", "Live music"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] }
+  ]
+},
+{
+  "title": "Bangkok Long Vacation",
+  "destination": "Bangkok",
+  "duration": "14",
+  "days": [
+    { "activities": ["Grand Palace", "Wat Phra Kaew", "Wat Pho", "Reclining Buddha", "Riverfront walk"] },
+    { "activities": ["Chao Phraya boat ride", "Wat Arun", "Street food tour", "Flower market", "Rooftop sunset"] },
+    { "activities": ["Chatuchak Market", "Thai massage", "Art gallery", "Local café crawl", "Night market"] },
+    { "activities": ["Jim Thompson House", "Silk museum", "Canal tour", "Floating lunch", "Cultural show"] },
+    { "activities": ["Asiatique Riverfront", "Ferris wheel", "Jurassic World theme park", "Dinner cruise", "Live music"] },
+    { "activities": ["Ayutthaya day trip", "Temple ruins", "Elephant village", "River lunch", "Train ride"] },
+    { "activities": ["Cooking class", "Fruit carving", "Market visit", "Tuk-tuk ride", "Evening walk"] },
+    { "activities": ["Museum of Siam", "Interactive exhibits", "History walk", "Café break", "Sunset cruise"] },
+    { "activities": ["Shopping day", "Massage therapy", "Tea tasting", "Fashion street", "Live music"] },
+    { "activities": ["Day trip to Kanchanaburi", "Bridge on River Kwai", "War museum", "Lunch", "Return"] },
+    { "activities": ["Hidden gardens", "Photography walk", "Picnic", "Local café", "Evening stroll"] },
+    { "activities": ["Bike tour", "Canal paths", "Shrine visit", "Street food", "Sunset view"] },
+    { "activities": ["Final brunch", "Photo recap", "Souvenir shopping", "Farewell walk", "Goodbye view"] },
+    { "activities": ["Beach yoga", "Spa day", "Healthy lunch", "Sunset meditation", "Evening stroll"] }
+  ]
+}
+]

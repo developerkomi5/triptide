@@ -4,6 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:lottie/lottie.dart';
+import 'package:provider/provider.dart';
+import 'package:triptide/providers/user_preferences_provider.dart';
 import 'package:triptide/screens/home_screen.dart';
 
 import '../../utils/constants.dart';
@@ -58,6 +60,11 @@ class _SummaryScreenState extends State<SummaryScreen> {
       return;
     }
 
+    String _extractDurationInDays(DateTime? start, DateTime? end) {
+      if (start == null || end == null) return "1";
+      return (end.difference(start).inDays + 1).toString(); // e.g. "14"
+    }
+
     setState(() => _isSaving = true);
 
     final userDoc = FirebaseFirestore.instance.collection('users').doc(uid);
@@ -78,6 +85,18 @@ class _SummaryScreenState extends State<SummaryScreen> {
           },
         },
       });
+
+      final rawDuration = _extractDurationInDays(
+        widget.startDate,
+        widget.endDate,
+      );
+      print('Saving duration: $rawDuration');
+
+      // ✅ Update Provider after saving to Firestore
+      context.read<UserPreferencesProvider>().setDestination(
+        widget.destination ?? "-",
+      );
+      context.read<UserPreferencesProvider>().setDuration(rawDuration);
 
       await Future.delayed(const Duration(seconds: 1));
 
